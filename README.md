@@ -6,7 +6,7 @@ Go bindings for wkhtmltopdf & wkhtmltoimage - Convert HTML to PDF/IMAGE using We
 ```go
 package main
 
-import "github.com/pleximus/go-htmltopdf"
+import "github.com/jackdon/go-htmltopdf"
 
 converter := html2pdf.New()
 
