@@ -1,7 +1,6 @@
 package image
 
 /*
-#cgo CFLAGS: -I../wkhtmltoimage/include
 #include <wkhtmltox/image.h>
 #include <stdio.h>
 

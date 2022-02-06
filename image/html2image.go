@@ -1,8 +1,7 @@
 package image
 
 /*
-#cgo CFLAGS: -I../wkhtmltopdf/include
-#cgo LDFLAGS: -lwkhtmltox -L../wkhtmltopdf/lib
+#cgo LDFLAGS: -lwkhtmltox
 #include <wkhtmltox/image.h>
 
 void progress_changed_cgo(wkhtmltoimage_converter *converter, int p);
